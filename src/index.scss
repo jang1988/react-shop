@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: #e7f6ff;
+}
+
+ul {
+  list-style: none;
+}
+
+.wrapper {
+  background: #ffffff;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04);
+  border-radius: 20px;
+  max-width: 1080px;
+  margin: 50px auto;
+  padding: 40px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #eaeaeaea;
+  padding-bottom: 40px;
+  .headerLeft {
+    display: flex;
+    align-items: center;
+    img {
+      width: 40px;
+      height: 40px;
+      margin-right: 15px;
+    }
+    h3 {
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 24px;
+      text-transform: uppercase;
+      margin: 0;
+    }
+    p {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+      color: #9d9d9d;
+      margin: 0;
+    }
+  }
+  .headerRight {
+    display: flex;
+    gap: 30px;
+    li {
+      display: flex;
+      align-items: center;
+    }
+    img {
+      width: 18px;
+      height: 18px;
+      margin-right: 10px;
+    }
+  }
+}
+
+.content {
+  h1 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    margin-bottom: 40px;
+  }
+  .conteinerWrapper {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    border: 1px solid #f8f8f8;
+    border-radius: 40px;
+    padding: 30px;
+    max-width: 150px;
+    img {
+      max-width: 133px;
+    }
+    p {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+    }
+    .cardWrapper {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+    .cardInner {
+      display: flex;
+      flex-direction: column;
+      span {
+        font-weight: 500;
+        font-size: 11px;
+        line-height: 13px;
+        text-transform: uppercase;
+        color: #bdbdbd;
+      }
+      b {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+      }
+    }
+    button {
+      width: 32px;
+      height: 32px;
+      background: #ffffff;
+      border: 1px solid #f2f2f2;
+      box-sizing: border-box;
+      border-radius: 8px;
+      cursor: pointer;
+      img {
+        width: 11px;
+      height: 11px;
+      }
+    }
+  }
+}
